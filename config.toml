@@ -1,6 +1,6 @@
-baseurl = "https://www.example.com/"
+baseurl = "https://sotr.io/"
 languageCode = "en"
-title = "VEX Bootstrap 4 Product Landing Page"
+title = "Sotr.io"
 theme = "vex"
 
 [params]
