@@ -1,0 +1,31 @@
+<!--
+Header start
+==================== -->
+{{- with .Site.Params.header }}
+<section class="hero-area">
+  <div class="container">
+    <div class="row" style="margin-top: 100px;">
+      <div class="col-md-6 text-center">
+      {{- with .image }}
+        <img src="{{ relURL .path }}" alt="{{ .alt }}" style="width: 300px;">
+      {{- end }}
+      </div>
+      <div class="col-md-6">
+        <div class="block">
+            <p><h1 class="" style="font-size: 87px;">{{ .supertitle | markdownify }}</h1></p>
+            <h2 class="">{{ .title | markdownify }}</h2>
+            <div class="testimonial-block" style="margin-top:20px;">
+              <i class="tf-ion-quote"></i>
+              <p>{{ .subtitle | markdownify }}</p>
+            </div>
+            
+          <p>{{ .text }}</p>
+        <!--{{- with .button }}
+          <a class="btn btn-light" style="margin-top:30px;" href="{{ .link }}" role="button">{{ .text }}</a>
+        {{- end }}-->
+        </div>
+      </div>
+    </div><!-- .row close -->
+  </div><!-- .container close -->
+</section><!-- header close -->
+{{- end }}
