@@ -1,0 +1,87 @@
+baseurl = "https://www.example.com/"
+languageCode = "en"
+title = "VEX Bootstrap 4 Product Landing Page"
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Header
+  [params.header]
+    supertitle = "Soter"
+    title = "An <b>e2e</b> solution with a new lightweight secure concept"
+    text = ""
+    subtitle = "Soter was the personified spirit of safety, preservation and deliverance from harm. <k>(Greek mythology)</k>"
+    [params.header.image]
+      path = "images/stk_logo_big.png"
+      alt = "Stk"
+    [params.header.button]
+      link = "#"
+      text = "Features"
+
+  # Features
+  [params.features]
+    title = ""
+    [params.features.image]
+      path = "images/stk_cloud.png"
+      alt = "Watch"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-ion-android-locate"
+      title = "Simplicity"
+      text = "A e2e connection is performed wholly by <b>exchanging very simple keys transparently </b>handled by Soter. <br><br>No need to manage connections (addresses, IP), sessions, and local key provisioning."
+    [[params.features.left]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Flexibility"
+      text = "Soter stands an extremely <b>all-purpose powerful</b> interface from any <b>browser</b> and other platforms."
+    [[params.features.left]]
+      icon = "tf-ion-android-time"
+      title = "High performance"
+      text = "Using state-of-the-art techniques helps to <b>reduce the overhead</b> performing high-speed cryptographic primitives. Secure networking improves being suitable for <b>constrainted devices</b>."
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-android-lock"
+      title = "Crypto-theme"
+      text = "Innovation with cryptography techniques based to the <b>Noise Framework Protocol</b> and other secure constructions. <br><br><b>Perfect Forward Secrecy</b> is achieved helped by a TLS alternative."
+    [[params.features.right]]
+      icon = "tf-ion-android-archive"
+      title = "Plug and play / Software as a Service (SaaS)"
+      text = "An adaptable and flexible version to be integrated as a service on any platform or other solution."
+    
+  [params.call_to_action]
+    title = "Information"
+    text = "Our prototype is under development, if you need more detailed information, do not hesitate to contact us"
+    placeholder = "<b>team@sotr.io</b>"
+    button_text = "Subscribe"
+
+  [params.testimonials]
+    title = "Team"
+    [[params.testimonials.blocks]]
+      text = "Software engineer and multiplayer platform development in the videogames sector. Enthusiast in perfecting scalable secure services in high load scenarios. Experience in the development, integration in the cloud / other infrastructures and support at the production level of scalable services that exceed a traffic of more than 10,000 concurrent user accesses."
+      name = "Alvaro Lopez"
+      position = "Engineer, Omnidrone"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [params.testimonials.button]
+      link = ""
+      text = "Grab You Product Now"
+
+  # Footer uses navbar data

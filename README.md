@@ -1,1 +1,1 @@
-# sotr.github.io
+# stk.news
